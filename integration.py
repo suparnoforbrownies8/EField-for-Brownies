@@ -13,7 +13,7 @@ R = int(input('Enter the value of R: '))
 div = int(input('Enter the number of divisions you want your program to calculate the integration for, Remember, more the divisions more is the running time!!: '))
 
 
-print(integrate(0,math.pi,div,lamda,R,100))
+
 
 
 f = open("datapoints-integrals.txt", "w")
